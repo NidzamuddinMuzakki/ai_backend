@@ -15,4 +15,4 @@ app.get("/", (req, res) => {
   res.status(200).json({ message: "DALL.E here. Welcome!" });
 });
 
-app.listen(1994, () => console.log("Server has started on PORT 1994"));
+app.listen(8080, () => console.log("Server has started on PORT 8080",));
